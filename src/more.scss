@@ -1,0 +1,13 @@
+.x-more-text-field .x-component-outer:after {
+  content: '';
+  position: absolute;
+  width: 1em;
+  height: 1.5em;
+  top: 40%;
+  left: auto;
+  right: 0.7em;
+  -webkit-mask-size: 1.5em;
+  -webkit-mask-image: url('../icons/right.png');
+  margin-top: -0.5em;
+  background-color: #aaa;
+}
